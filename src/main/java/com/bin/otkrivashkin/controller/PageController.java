@@ -10,4 +10,29 @@ public class PageController {
 	public String index() {
 		return "index";
 	}
+	
+	@RequestMapping("/products")
+	public String products() {
+		return "products";
+	}
+	
+	@RequestMapping("/details")
+	public String details() {
+		return "details";
+	}
+	
+	@RequestMapping("/contact")
+	public String contact() {
+		return "contact";
+	}
+	
+	@RequestMapping("/login")
+	public String login() {
+		return "login";
+	}
+	
+	@RequestMapping("/register")
+	public String register() {
+		return "register";
+	}
 }

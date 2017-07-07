@@ -1,486 +1,980 @@
-<!--A Design by W3layouts
-Author: W3layout
+<!--
+Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Index</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords"
-	content="N-Air Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() {setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-
-<!--fonts-->
-<link href='//fonts.googleapis.com/css?family=Fredoka+One'
-	rel='stylesheet' type='text/css'>
-
-<!--fonts-->
-<!--bootstrap-->
-<link href="<c:url value="/resources/css/bootstrap.min.css" />"
-	rel="stylesheet">
-<!--coustom css-->
-<link href="<c:url value="/resources/css/style.css" />" rel="stylesheet" />
-<!--shop-kart-js-->
-<script src="<c:url value="/resources/js/simpleCart.min.js" />"></script>
-<!--default-js-->
-<script src="<c:url value="/resources/js/jquery-2.1.4.min.js" />"></script>
-<!--bootstrap-js-->
-<script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
-<!--script-->
-</head>
-<body>
-	<div class="header">
-		<div class="container">
-			<div class="header-top">
-				<div class="logo">
-					<a href="index.html">N-AIR</a>
-				</div>
-				<div class="login-bars">
-					<a class="btn btn-default log-bar" href="register.html"
-						role="button">Sign up</a> <a class="btn btn-default log-bar"
-						href="signup.html" role="button">Login</a>
-					<div class="cart box_1">
-						<a href="checkout.html">
-							<h3>
-								<div class="total">
-									<span class="simpleCart_total"></span>(<span
-										id="simpleCart_quantity" class="simpleCart_quantity"></span>)
-								</div>
-							</h3>
-						</a>
-						<p>
-							<a href="javascript:;" class="simpleCart_empty">Empty Cart</a>
-						</p>
-						<div class="clearfix"></div>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<!---menu-----bar--->
-			<div class="header-botom">
-				<div class="content white">
-					<nav class="navbar navbar-default nav-menu" role="navigation">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle"
-								data-toggle="collapse"
-								data-target="#bs-example-navbar-collapse-1">
-								<span class="sr-only">Toggle navigation</span> <span
-									class="icon-bar"></span> <span class="icon-bar"></span> <span
-									class="icon-bar"></span>
-							</button>
-						</div>
-						<div class="clearfix"></div>
-						<!--/.navbar-header-->
-
-						<div class="collapse navbar-collapse collapse-pdng"
-							id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav nav-font">
-								<li class="dropdown"><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">Shop<b class="caret"></b></a>
-									<ul class="dropdown-menu">
-										<li><a href="products.html">Shoes</a></li>
-										<li><a href="products.html">Tees</a></li>
-										<li><a href="products.html">Tops</a></li>
-										<li class="divider"></li>
-										<li><a href="products.html">Tracks</a></li>
-										<li class="divider"></li>
-										<li><a href="products.html">Gear</a></li>
-									</ul></li>
-								<li class="dropdown"><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">Men<b class="caret"></b></a>
-									<ul class="dropdown-menu multi-column columns-3">
-										<div class="row">
-											<div class="col-sm-4 menu-img-pad">
-												<ul class="multi-column-dropdown">
-													<li><a href="products.html">Joggers</a></li>
-													<li><a href="products.html">Foot Ball</a></li>
-													<li><a href="products.html">Cricket</a></li>
-													<li class="divider"></li>
-													<li><a href="products.html">Tennis</a></li>
-													<li class="divider"></li>
-													<li><a href="products.html">Casual</a></li>
-												</ul>
-											</div>
-											<div class="col-sm-4 menu-img-pad">
-												<a href="#"><img
-													src="<c:url value="/resources/images/menu1.jpg" />" alt="/"
-													class="img-rsponsive men-img-wid" /></a>
-											</div>
-											<div class="col-sm-4 menu-img-pad">
-												<a href="#"><img
-													src="<c:url value="/resources/images/menu2.jpg"/>" alt="/"
-													class="img-rsponsive men-img-wid" /></a>
-											</div>
-										</div>
-									</ul></li>
-								<li class="dropdown"><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">Women<b class="caret"></b></a>
-									<ul class="dropdown-menu multi-column columns-2">
-										<div class="row">
-											<div class="col-sm-6">
-												<ul class="multi-column-dropdown">
-													<li><a href="products.html">Tops</a></li>
-													<li><a href="products.html">Bottoms</a></li>
-													<li><a href="products.html">Yoga Pants</a></li>
-													<li class="divider"></li>
-													<li><a href="products.html">Sports</a></li>
-													<li class="divider"></li>
-													<li><a href="products.html">Gym</a></li>
-												</ul>
-											</div>
-											<div class="col-sm-6">
-												<a href="#"><img
-													src="<c:url value="/resources/images/menu3.jpg"/>" alt="/"
-													class="img-rsponsive men-img-wid" /></a>
-											</div>
-										</div>
-									</ul></li>
-								<li class="dropdown"><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">kids<b class="caret"></b></a>
-									<ul class="dropdown-menu">
-										<li><a href="products.html">Tees</a></li>
-										<li><a href="products.html">Shorts</a></li>
-										<li><a href="products.html">Gear</a></li>
-										<li class="divider"></li>
-										<li><a href="products.html">Watches</a></li>
-										<li class="divider"></li>
-										<li><a href="products.html">Shoes</a></li>
-									</ul></li>
-								<li><a href="contact.html">Catch</a></li>
-								<div class="clearfix"></div>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Index</title>
+		<link href="<c:url value="/resources/css/style.css"/>" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!----webfonts---->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<!----//webfonts---->
+		<!----start-alert-scroller---->
+		<script src="<c:url value="/resources/js/jquery.min.js"/>"></script>
+		<script type="text/javascript" src="<c:url value="/resources/js/jquery.easy-ticker.js"/>"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('#demo').hide();
+			$('.vticker').easyTicker();
+		});
+		</script>
+		<!----start-alert-scroller---->
+		<!-- start menu -->
+		<link href="<c:url value="/resources/css/megamenu.css"/>" rel="stylesheet" type="text/css" media="all" />
+		<script type="text/javascript" src="<c:url value="/resources/js/megamenu.js"/>"></script>
+		<script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
+		<script src="<c:url value="/resources/js/menu_jquery.js"/>"></script>
+		<!-- //End menu -->
+		<!---slider---->
+		<link rel="stylesheet" href="<c:url value="/resources/css/slippry.css"/>">
+		<script src="<c:url value="/resources/js/jquery-ui.js"/>" type="text/javascript"></script>
+		<script src="<c:url value="/resources/js/scripts-f0e4e0c2.js"/>" type="text/javascript"></script>
+		<script>
+			  jQuery('#jquery-demo').slippry({
+			  // general elements & wrapper
+			  slippryWrapper: '<div class="sy-box jquery-demo" />', // wrapper to wrap everything, including pager
+			  // options
+			  adaptiveHeight: false, // height of the sliders adapts to current slide
+			  useCSS: false, // true, false -> fallback to js if no browser support
+			  autoHover: false,
+			  transition: 'fade'
+			});
+		</script>
+		<!----start-pricerage-seletion---->
+		<script type="text/javascript" src="<c:url value="/resources/js/jquery-ui.min.js"/>"></script>
+		<link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/jquery-ui.css"/>">
+		<script type='text/javascript'>//<![CDATA[ 
+			$(window).load(function(){
+			 $( "#slider-range" ).slider({
+			            range: true,
+			            min: 0,
+			            max: 500,
+			            values: [ 100, 400 ],
+			            slide: function( event, ui ) {  $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+			            }
+			 });
+			$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) + " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+			
+			});//]]>  
+		</script>
+		<!----//End-pricerage-seletion---->
+		<!---move-top-top---->
+		<script type="text/javascript" src="<c:url value="/resources/js/move-top.js"/>"></script>
+		<script type="text/javascript" src="<c:url value="/resources/js/easing.js"/>"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+		</script>
+		<!---//move-top-top---->
+	</head>
+	<body>
+		<!---start-wrap---->
+			<!---start-header---->
+			<div class="header">
+				<div class="top-header">
+					<div class="wrap">
+						<div class="top-header-left">
+							<ul>
+								<!---cart-tonggle-script---->
+								<script type="text/javascript">
+									$(function(){
+									    var $cart = $('#cart');
+									        $('#clickme').click(function(e) {
+									         e.stopPropagation();
+									       if ($cart.is(":hidden")) {
+									           $cart.slideDown("slow");
+									       } else {
+									           $cart.slideUp("slow");
+									       }
+									    });
+									    $(document.body).click(function () {
+									       if ($cart.not(":hidden")) {
+									           $cart.slideUp("slow");
+									       } 
+									    });
+									    });
+								</script>
+								<!---//cart-tonggle-script---->
+								<li><a class="cart" href="#"><span id="clickme"> </span></a></li>
+								<!---start-cart-bag---->
+								<div id="cart">Your Cart is Empty <span>(0)</span></div>
+								<!---start-cart-bag---->
+								<li><a class="info" href="#"><span> </span></a></li>
 							</ul>
-							<div class="clearfix"></div>
 						</div>
-						<!--/.navbar-collapse-->
-						<div class="clearfix"></div>
-					</nav>
-					<!--/.navbar-->
-					<div class="clearfix"></div>
+						<div class="top-header-center">
+							<div class="top-header-center-alert-left">
+								<h3>FREE DELIVERY</h3>
+							</div>
+							<div class="top-header-center-alert-right">
+								<div class="vticker">
+								  <ul>
+									  <li>Applies to orders of $50 or more. <label>Returns are always free.</label></li>
+								  </ul>
+								</div>
+							</div>
+							<div class="clear"> </div>
+						</div>
+						<div class="top-header-right">
+							<ul>
+								<li><a href="login.html">Login</a><span> </span></li>
+								<li><a href="register.html">Join</a></li>
+							</ul>
+						</div>
+						<div class="clear"> </div>
+					</div>
 				</div>
-				<!--/.content--->
-			</div>
-			<!--header-bottom-->
-		</div>
-	</div>
-	<div class="header-end">
-		<div class="container">
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				<!-- Indicators -->
-				<ol class="carousel-indicators">
-					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#myCarousel" data-slide-to="1"></li>
-					<li data-target="#myCarousel" data-slide-to="2"></li>
-				</ol>
+				<!----start-mid-head---->
+				<div class="mid-header">
+					<div class="wrap">
+						<div class="mid-grid-left">
+							<form>
+								<input type="text" placeholder="What Are You Looking for?" />
+							</form>
+						</div>
+						<div class="mid-grid-right">
+							<a class="logo" href="index.html"><span> </span></a>
+						</div>
+						<div class="clear"> </div>
+					</div>
+				</div>
+				<!----//End-mid-head---->
+				<!----start-bottom-header---->
+				<div class="header-bottom">
+					<div class="wrap">
+					<!-- start header menu -->
+							<ul class="megamenu skyblue">
+								<li class="grid"><a class="color2" href="#">MEN</a>
+									<div class="megapanel">
+										<div class="row">
+											<div class="col1">
+												<div class="h_nav">
+													<h4>popular</h4>
+													<ul>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">login</a></li>
+													</ul>	
+												</div>
+												<div class="h_nav">
+													<h4 class="top">man</h4>
+													<ul>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="#">accessories</a></li>
+														<li><a href="#">kids</a></li>
+														<li><a href="#">style videos</a></li>
+													</ul>	
+												</div>
+											</div>
+											<div class="col1">
+												<div class="h_nav">
+													<h4>style zone</h4>
+													<ul>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">brands</a></li>
+													</ul>	
+												</div>							
+											</div>
+											<div class="col1">
+												<div class="h_nav">
+													<h4>style zone</h4>
+													<ul>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">brands</a></li>
+													</ul>	
+												</div>							
+											</div>
+											<div class="col1 men">
+												<div class="men-pic">
+													<img src="<c:url value="/resources/images/men.png"/>" title="" />
+												</div>
+											</div>
+										</div>
+									</div>
+									</li>
+					  			<li class="active grid"><a class="color4" href="#">women</a>
+									<div class="megapanel">
+										<div class="row">
+											<div class="col1">
+												<div class="h_nav">
+													<h4>shop</h4>
+													<ul>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">brands</a></li>
+													</ul>	
+												</div>	
+												<div class="h_nav">
+													<h4>help</h4>
+													<ul>
+														<li><a href="products.html">trends</a></li>
+														<li><a href="products.html">sale</a></li>
+														<li><a href="products.html">style videos</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
+													</ul>	
+												</div>							
+											</div>
+											<div class="col1">
+												<div class="h_nav">
+													<h4>my company</h4>
+													<ul>
+														<li><a href="products.html">trends</a></li>
+														<li><a href="products.html">sale</a></li>
+														<li><a href="products.html">style videos</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
+													</ul>	
+												</div>												
+											</div>
+											<div class="col1">
+												<div class="h_nav">
+													<h4>account</h4>
+													<ul>
+														<li><a href="products.html">login</a></li>
+														<li><a href="products.html">create an account</a></li>
+														<li><a href="products.html">create wishlist</a></li>
+														<li><a href="products.html">my shopping bag</a></li>
+														<li><a href="products.html">brands</a></li>
+														<li><a href="products.html">create wishlist</a></li>
+													</ul>	
+												</div>						
+											</div>
+											<div class="col1">
+												<div class="h_nav">
+													<h4>my company</h4>
+													<ul>
+														<li><a href="products.html">trends</a></li>
+														<li><a href="products.html">sale</a></li>
+														<li><a href="products.html">style videos</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
+													</ul>	
+												</div>
+											</div>
+											<div class="col1">
+												<div class="h_nav">
+													<h4>popular</h4>
+													<ul>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
+													</ul>	
+												</div>
+											</div>
+											<div class="col1 women">
+												<div class="women-pic">
+													<img src="<c:url value="/resources/images/women.png"/>" title="" />
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col2"></div>
+											<div class="col1"></div>
+											<div class="col1"></div>
+											<div class="col1"></div>
+											<div class="col1"></div>
+										</div>
+					    				</div>
+									</li>				
+									<li><a class="color5" href="#">KIDS</a>
+									<div class="megapanel">
+										<div class="row">
+											<div class="col1">
+												<div class="h_nav">
+													<h4>popular</h4>
+													<ul>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">login</a></li>
+													</ul>	
+												</div>
+												<div class="h_nav">
+													<h4 class="top">man</h4>
+													<ul>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
+													</ul>	
+												</div>
+											</div>
+											<div class="col1">
+												<div class="h_nav">
+													<h4>style zone</h4>
+													<ul>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">brands</a></li>
+													</ul>	
+												</div>							
+											</div>
+											<div class="col1 kids">
+												<div class="kids-pic">
+													<img src="<c:url value="/resources/images/kids1.png"/>" title="" />
+												</div>
+											</div>
+											<div class="col1"></div>
+											<div class="col1"></div>
+											<div class="col1"></div>
+											<div class="col1"></div>
+										</div>
+									</div>
+									</li>
+									<li><a class="color6" href="#">SPORTS</a>
+									<div class="megapanel">
+										<div class="row">
+											<div class="col1">
+												<div class="h_nav">
+													<h4>shop</h4>
+													<ul>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">brands</a></li>
+													</ul>	
+												</div>	
+												<div class="h_nav">
+													<h4 class="top">my company</h4>
+													<ul>
+														<li><a href="products.html">trends</a></li>
+														<li><a href="products.html">sale</a></li>
+														<li><a href="products.html">style videos</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
+													</ul>	
+												</div>												
+											</div>
+											<div class="col1">
+												<div class="h_nav">
+													<h4>man</h4>
+													<ul>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
+													</ul>	
+												</div>						
+											</div>
+											<div class="col1">
+												<div class="h_nav">
+													<h4>help</h4>
+													<ul>
+														<li><a href="products.html">trends</a></li>
+														<li><a href="products.html">sale</a></li>
+														<li><a href="products.html">style videos</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
+													</ul>	
+												</div>							
+											</div>
+											<div class="col1 sports">
+												<div class="sports-pic">
+													<img src="<c:url value="/resources/images/sport.png"/>" title="" />
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col2"></div>
+											<div class="col1"></div>
+											<div class="col1"></div>
+											<div class="col1"></div>
+											<div class="col1"></div>
+										</div>
+									</div>
+									</li>
+									<li><a class="color7" href="#">NIKE SPORTSWEAR</a>
+									<div class="megapanel">
+										<div class="row">
+											<div class="col1">
+												<div class="h_nav">
+													<h4>shop</h4>
+													<ul>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">brands</a></li>
+													</ul>	
+												</div>		
+												<div class="h_nav">
+													<h4>my company</h4>
+													<ul>
+														<li><a href="products.html">trends</a></li>
+														<li><a href="products.html">sale</a></li>
+														<li><a href="products.html">style videos</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
+													</ul>	
+												</div>					
+											</div>
+											<div class="col1">
+												<div class="h_nav">
+													<h4>help</h4>
+													<ul>
+														<li><a href="products.html">trends</a></li>
+														<li><a href="products.html">sale</a></li>
+														<li><a href="products.html">style videos</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
+													</ul>	
+												</div>							
+											</div>
+											<div class="col1">
+												<div class="h_nav">
+													<h4>my company</h4>
+													<ul>
+														<li><a href="products.html">trends</a></li>
+														<li><a href="products.html">sale</a></li>
+														<li><a href="products.html">style videos</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
+													</ul>	
+												</div>												
+											</div>
+											<div class="col1">
+												<div class="h_nav">
+													<h4>account</h4>
+													<ul>
+														<li><a href="products.html">login</a></li>
+														<li><a href="products.html">create an account</a></li>
+														<li><a href="products.html">create wishlist</a></li>
+														<li><a href="products.html">my shopping bag</a></li>
+														<li><a href="products.html">brands</a></li>
+														<li><a href="products.html">create wishlist</a></li>
+													</ul>	
+												</div>						
+											</div>
+											<div class="col1 nike">
+												<div class="nike-pic">
+													<img src="<c:url value="/resources/images/nike.png"/>" title="" />
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col2"></div>
+											<div class="col1"></div>
+											<div class="col1"></div>
+											<div class="col1"></div>
+											<div class="col1"></div>
+										</div>
+					    				</div>
+									</li>
+									<li><a class="color8" href="#">NIKEiD</a>
+									<div class="megapanel">
+										<div class="row">
+											<div class="col1">
+												<div class="h_nav">
+													<h4>style zone</h4>
+													<ul>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">brands</a></li>
+													</ul>	
+												</div>							
+											</div>
+											<div class="col1">
+												<div class="h_nav">
+													<h4>popular</h4>
+													<ul>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">login</a></li>
+													</ul>	
+												</div>
+												<div class="h_nav">
+													<h4 class="top">man</h4>
+													<ul>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
+													</ul>	
+												</div>
+											<div class="col1"></div>
+											<div class="col1"></div>
+											<div class="col1"></div>
+											<div class="col1"></div>
+										</div>
+									</div>
+									</li>
+							</ul>
 
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox">
-					<div class="item active">
-						<img src="<c:url value="/resources/images/shoe3.jpg" />" alt="...">
-						<div class="carousel-caption car-re-posn">
-							<h3>AirMax</h3>
-							<h4>You feel to fall</h4>
-							<span class="color-bar"></span>
-						</div>
-					</div>
-					<div class="item">
-						<img src="<c:url value="/resources/images/shoe1.jpg" />" alt="...">
-						<div class="carousel-caption car-re-posn">
-							<h3>AirMax</h3>
-							<h4>You feel to fall</h4>
-							<span class="color-bar"></span>
-						</div>
-					</div>
-					<div class="item">
-						<img src="<c:url value="/resources/images/shoe2.jpg" />" alt="...">
-						<div class="carousel-caption car-re-posn">
-							<h3>AirMax</h3>
-							<h4>You feel to fall</h4>
-							<span class="color-bar"></span>
-						</div>
 					</div>
 				</div>
-
-				<!-- Controls -->
-				<a class="left carousel-control" href="#myCarousel" role="button"
-					data-slide="prev"> <span
-					class="glyphicon glyphicon-chevron-left car-icn" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a> <a class="right carousel-control" href="#myCarousel" role="button"
-					data-slide="next"> <span
-					class="glyphicon glyphicon-chevron-right car-icn"
-					aria-hidden="true"></span> <span class="sr-only">Next</span>
-				</a>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-	<div class="feel-fall">
-		<div class="container">
-			<div class="pull-left fal-box">
-				<div class=" fall-left">
-					<h3>Fall</h3>
-					<img src="<c:url value="/resources/images/f-l.png" />" alt="/"
-						class="img-responsive fl-img-wid">
-					<p>
-						Inspiration and innovation<br> for every athlete in the world
-					</p>
-					<span class="fel-fal-bar"></span>
 				</div>
-			</div>
-			<div class="pull-right fel-box">
-				<div class="feel-right">
-					<h3>Feel</h3>
-					<img src="<c:url value="/resources/images/f-r.png" />" alt="/"
-						class="img-responsive fl-img-wid">
-					<p>
-						Inspiration and innovation<br> for every athlete in the world
-					</p>
-					<span class="fel-fal-bar2"></span>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-	<div class="shop-grid">
-		<div class="container">
-			<div class="col-md-4 grid-stn simpleCart_shelfItem">
-				<!-- normal -->
-				<div class="ih-item square effect3 bottom_to_top">
-					<div class="bottom-2-top">
-						<div class="img">
-							<img src="<c:url value="/resources/images/grid4.jpg" />" alt="/"
-								class="img-responsive gri-wid">
-						</div>
-						<div class="info">
-							<div class="pull-left styl-hdn">
-								<h3>style 01</h3>
-							</div>
-							<div class="pull-right styl-price">
-								<p>
-									<a href="#" class="item_add"><span
-										class="glyphicon glyphicon-shopping-cart grid-cart"
-										aria-hidden="true"></span> <span class=" item_price">$190</span></a>
-								</p>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
-				</div>
-				<!-- end normal -->
-				<div class="quick-view">
-					<a href="single.html">Quick view</a>
-				</div>
-			</div>
-			<div class="col-md-4 grid-stn simpleCart_shelfItem">
-				<!-- normal -->
-				<div class="ih-item square effect3 bottom_to_top">
-					<div class="bottom-2-top">
-						<div class="img">
-							<img src="<c:url value="/resources/images/grid6.jpg" />" alt="/"
-								class="img-responsive gri-wid">
-						</div>
-						<div class="info">
-							<div class="pull-left styl-hdn">
-								<h3>style 01</h3>
-							</div>
-							<div class="pull-right styl-price">
-								<p>
-									<a href="#" class="item_add"><span
-										class="glyphicon glyphicon-shopping-cart grid-cart"
-										aria-hidden="true"></span> <span class=" item_price">$190</span></a>
-								</p>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
-				</div>
-				<!-- end normal -->
-				<div class="quick-view">
-					<a href="single.html">Quick view</a>
-				</div>
-			</div>
-			<div class="col-md-4 grid-stn simpleCart_shelfItem">
-				<!-- normal -->
-				<div class="ih-item square effect3 bottom_to_top">
-					<div class="bottom-2-top">
-						<div class="img">
-							<img src="<c:url value="/resources/images/grid3.jpg" />" alt="/"
-								class="img-responsive gri-wid">
-						</div>
-						<div class="info">
-							<div class="pull-left styl-hdn">
-								<h3>style 01</h3>
-							</div>
-							<div class="pull-right styl-price">
-								<p>
-									<a href="#" class="item_add"><span
-										class="glyphicon glyphicon-shopping-cart grid-cart"
-										aria-hidden="true"></span> <span class=" item_price">$190</span></a>
-								</p>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
-				</div>
-				<!-- end normal -->
-				<div class="quick-view">
-					<a href="single.html">Quick view</a>
-				</div>
-			</div>
-			<div class="col-md-4 grid-stn simpleCart_shelfItem">
-				<!-- normal -->
-				<div class="ih-item square effect3 bottom_to_top">
-					<div class="bottom-2-top">
-						<div class="img">
-							<img src="<c:url value="/resources/images/grid5.jpg"/>" alt="/"
-								class="img-responsive gri-wid">
-						</div>
-						<div class="info">
-							<div class="pull-left styl-hdn">
-								<h3>style 01</h3>
-							</div>
-							<div class="pull-right styl-price">
-								<p>
-									<a href="#" class="item_add"><span
-										class="glyphicon glyphicon-shopping-cart grid-cart"
-										aria-hidden="true"></span> <span class=" item_price">$190</span></a>
-								</p>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
-				</div>
-				<!-- end normal -->
-				<div class="quick-view">
-					<a href="single.html">Quick view</a>
-				</div>
-			</div>
-			<div class="col-md-4 grid-stn simpleCart_shelfItem">
-				<!-- normal -->
-				<div class="ih-item square effect3 bottom_to_top">
-					<div class="bottom-2-top">
-						<div class="img">
-							<img src="<c:url value="/resources/images/grid7.jpg"/>" alt="/"
-								class="img-responsive gri-wid">
-						</div>
-						<div class="info">
-							<div class="pull-left styl-hdn">
-								<h3>style 01</h3>
-							</div>
-							<div class="pull-right styl-price">
-								<p>
-									<a href="#" class="item_add"><span
-										class="glyphicon glyphicon-shopping-cart grid-cart"
-										aria-hidden="true"></span> <span class=" item_price">$190</span></a>
-								</p>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
-				</div>
-				<!-- end normal -->
-				<div class="quick-view">
-					<a href="single.html">Quick view</a>
-				</div>
-			</div>
-			<div class="col-md-4 grid-stn simpleCart_shelfItem">
-				<!-- normal -->
-				<div class="ih-item square effect3 bottom_to_top">
-					<div class="bottom-2-top">
-						<div class="img">
-							<img src="<c:url value="/resources/images/grid8.jpg"/>" alt="/"
-								class="img-responsive gri-wid">
-						</div>
-						<div class="info">
-							<div class="pull-left styl-hdn">
-								<h3>style 01</h3>
-							</div>
-							<div class="pull-right styl-price">
-								<p>
-									<a href="#" class="item_add"><span
-										class="glyphicon glyphicon-shopping-cart grid-cart"
-										aria-hidden="true"></span> <span class=" item_price">$190</span></a>
-								</p>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
-				</div>
-				<!-- end normal -->
-				<div class="quick-view">
-					<a href="single.html">Quick view</a>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-	<div class="sub-news">
-		<div class="container">
-			<form>
-				<h3>NewsLetter</h3>
-				<input type="text" class="sub-email" value="Email"
-					onfocus="this.value = '';"
-					onblur="if (this.value == '') {this.value = 'Email';}"> <a
-					class="btn btn-default subs-btn" href="#" role="button">SUBSCRIBE</a>
-			</form>
-		</div>
-	</div>
-	<div class="footer-grid">
-		<div class="container">
-			<div class="col-md-2 re-ft-grd">
-				<h3>Categories</h3>
-				<ul class="categories">
-					<li><a href="#">Men</a></li>
-					<li><a href="#">Women</a></li>
-					<li><a href="#">Kids</a></li>
-					<li><a href="#">Formal</a></li>
-					<li><a href="#">Casuals</a></li>
-					<li><a href="#">Sports</a></li>
-				</ul>
-			</div>
-			<div class="col-md-2 re-ft-grd">
-				<h3>Short links</h3>
-				<ul class="shot-links">
-					<li><a href="#">Contact us</a></li>
-					<li><a href="#">Support</a></li>
-					<li><a href="#">Delivery</a></li>
-					<li><a href="#">Return Policy</a></li>
-					<li><a href="#">Terms & conditions</a></li>
-					<li><a href="contact.html">Sitemap</a></li>
-				</ul>
-			</div>
-			<div class="col-md-6 re-ft-grd">
-				<h3>Social</h3>
-				<ul class="social">
-					<li><a href="#" class="fb">facebook</a></li>
-					<li><a href="#" class="twt">twitter</a></li>
-					<li><a href="#" class="gpls">g+ plus</a></li>
-					<div class="clearfix"></div>
-				</ul>
-			</div>
-			<div class="col-md-2 re-ft-grd">
-				<div class="bt-logo">
-					<div class="logo">
-						<a href="index.html" class="ft-log">N-AIR</a>
-					</div>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-		<div class="copy-rt">
-			<div class="container">
-				<p>
-					&copy; 2015 N-AIR All Rights Reserved. Design by <a
-						href="http://www.w3layouts.com">w3layouts</a>
-				</p>
+				<!----//End-bottom-header---->
+			<!---//End-header---->
+		<!----start-image-slider---->
+		<div class="img-slider">
+			<div class="wrap">
+			<ul id="jquery-demo">
+			  <li>
+			    <a href="#slide1">
+			      <img src="<c:url value="/resources/images/slide-1.jpg"/>" alt="" />
+			    </a>
+			    <div class="slider-detils">
+			    	<h3>MENS FOOT BALL <label>BOOTS</label></h3>
+			    	<span>Stay true to your team all day, every day, game day.</span>
+			    	<a class="slide-btn" href="details.html"> Shop Now</a>
+			    </div>
+			  </li>
+			  <li>
+			    <a href="#slide2">
+			      <img src="<c:url value="/resources/images/slide-4.jpg"/>"  alt="" />
+			    </a>
+			     <div class="slider-detils">
+			    	<h3>MENS FOOT BALL <label>BOOTS</label></h3>
+			    	<span>Stay true to your team all day, every day, game day.</span>
+			    	<a class="slide-btn" href="details.html"> Shop Now</a>
+			    </div>
+			  </li>
+			  <li>
+			    <a href="#slide3">
+			      <img src="<c:url value="/resources/images/slide-1.jpg"/>" alt="" />
+			    </a>
+			     <div class="slider-detils">
+			    	<h3>MENS FOOT BALL <label>BOOTS</label></h3>
+			    	<span>Stay true to your team all day, every day, game day.</span>
+			    	<a class="slide-btn" href="details.html"> Shop Now</a>
+			    </div>
+			  </li>
+			</ul>
 			</div>
 		</div>
-	</div>
-</body>
+		<div class="clear"> </div>
+		<!----//End-image-slider---->
+		<!----start-price-rage--->
+		<div class="wrap">
+			<div class="price-rage">
+				<h3>Weekly selection:</h3>
+				<div id="slider-range">
+				</div>
+			</div>
+		</div>
+		<!----//End-price-rage--->
+		<!--- start-content---->
+		<div class="content">
+			<div class="wrap">
+				<div class="content-left">
+						<div class="content-left-top-grid">
+							<div class="content-left-price-selection">
+								<h4>Select Price:</h4>
+								<div class="price-selection-tree">
+									<span class="col_checkbox">
+										<input id="10" class="css-checkbox10" type="checkbox">
+										<label class="normal"><i for="10" name="demo_lbl_10"  class="css-label10"> </i> 400</label>
+									</span>
+									<span class="col_checkbox">
+										<input id="11" class="css-checkbox11" type="checkbox">
+										<label class="active1"><i for="11" name="demo_lbl_11"  class="css-label11"> </i>350</label>
+									</span>
+									<span class="col_checkbox">
+										<input id="12" class="css-checkbox12" type="checkbox">
+										<label class="normal"><i for="12" name="demo_lbl_12"  class="css-label12"> </i> 300</label>
+									</span>
+									<span class="col_checkbox">
+										<input id="13" class="css-checkbox13" type="checkbox">
+										<label class="normal"><i for="13" name="demo_lbl_13"  class="css-label13"> </i>250</label>
+									</span>
+									<span class="col_checkbox">
+										<input id="14" class="css-checkbox14" type="checkbox">
+										<label class="normal"><i for="14" name="demo_lbl_14"  class="css-label14"> </i> 200</label>
+									</span>
+									<span class="col_checkbox">
+										<input id="15" class="css-checkbox15" type="checkbox">
+										<label class="normal"><i for="15" name="demo_lbl_15"  class="css-label15"> </i>150</label>
+									</span>
+								</div>
+								
+						</div>
+						</div>
+						<div class="content-left-bottom-grid">
+							<h4>Boys Football:</h4>
+							<div class="content-left-bottom-grids">
+								<div class="content-left-bottom-grid1">
+									<img src="<c:url value="/resources/images/foot-ball.jpg"/>" title="football" />
+									<h5><a href="details.html">Nike Strike PL Hi-Vis</a></h5>
+									<span> Football</span>
+									<label>&#163; 375</label>
+								</div>
+								<div class="content-left-bottom-grid1">
+									<img src="<c:url value="/resources/images/jarse.jpg"/>" title="jarse" />
+									<h5><a href="details.html">Nike Strike PL Hi-Vis</a></h5>
+									<span> Football</span>
+									<label>&#163; 375</label>
+								</div>
+							</div>
+						</div>
+				</div>
+				<div class="content-right">
+					<div class="product-grids">
+						<!--- start-rate---->
+							<script src="<c:url value="/resources/js/jstarbox.js"/>"></script>
+							<link rel="stylesheet" href="<c:url value="/resources/css/jstarbox.css"/>" type="text/css" media="screen" charset="utf-8" />
+							<script type="text/javascript">
+								jQuery(function() {
+									jQuery('.starbox').each(function() {
+										var starbox = jQuery(this);
+										starbox.starbox({
+											average: starbox.attr('data-start-value'),
+											changeable: starbox.hasClass('unchangeable') ? false : starbox.hasClass('clickonce') ? 'once' : true,
+											ghosting: starbox.hasClass('ghosting'),
+											autoUpdateAverage: starbox.hasClass('autoupdate'),
+											buttons: starbox.hasClass('smooth') ? false : starbox.attr('data-button-count') || 5,
+											stars: starbox.attr('data-star-count') || 5
+										}).bind('starbox-value-changed', function(event, value) {
+											if(starbox.hasClass('random')) {
+												var val = Math.random();
+												starbox.next().text(' '+val);
+												return val;
+											} 
+										})
+									});
+								});
+							</script>
+							<!---//End-rate---->
+							<!---caption-script---->
+							<!---//caption-script---->
+						<div onclick="location.href='details.html';" class="product-grid fade">
+							<div class="product-grid-head">
+								<ul class="grid-social">
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="googlep" href="#"><span> </span></a></li>
+									<div class="clear"> </div>
+								</ul>
+								<div class="block">
+									<div class="starbox small ghosting"> </div> <span> (46)</span>
+								</div>
+							</div>
+							<div class="product-pic">
+								<a href="#"><img src="<c:url value="/resources/images/product2.jpg"/>" title="product-name" /></a>
+								<p>
+								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
+								<span>Men's Firm-Ground Football Boot</span>
+								</p>
+							</div>
+							<div class="product-info">
+								<div class="product-info-cust">
+									<a href="details.html">Details</a>
+								</div>
+								<div class="product-info-price">
+									<a href="details.html">&#163; 380</a>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="more-product-info">
+								<span> </span>
+							</div>
+						</div>
+						<div onclick="location.href='details.html';"  class="product-grid fade">
+							<div class="product-grid-head">
+								<ul class="grid-social">
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="googlep" href="#"><span> </span></a></li>
+									<div class="clear"> </div>
+								</ul>
+								<div class="block">
+									<div class="starbox small ghosting"> </div> <span> (46)</span>
+								</div>
+							</div>
+							<div class="product-pic">
+								<a href="#"><img src="<c:url value="/resources/images/product1.jpg"/>" title="product-name" /></a>
+								<p>
+								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
+								<span>Men's Firm-Ground Football Boot</span>
+								</p>
+							</div>
+							<div class="product-info">
+								<div class="product-info-cust">
+									<a href="details.html">Details</a>
+								</div>
+								<div class="product-info-price">
+									<a href="details.html">&#163; 375</a>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="more-product-info">
+								<span> </span>
+							</div>
+						</div>
+						<div onclick="location.href='details.html';"  class="product-grid fade last-grid">
+							<div class="product-grid-head">
+								<ul class="grid-social">
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="googlep" href="#"><span> </span></a></li>
+									<div class="clear"> </div>
+								</ul>
+								<div class="block">
+									<div class="starbox small ghosting"> </div> <span> (46)</span>
+								</div>
+							</div>
+							<div class="product-pic">
+								<a href="#"><img src="<c:url value="/resources/images/product3.jpg"/>" title="product-name" /></a>
+								<p>
+								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
+								<span>Men's Firm-Ground Football Boot</span>
+								</p>
+							</div>
+							<div class="product-info">
+								<div class="product-info-cust">
+									<a href="details.html">Details</a>
+								</div>
+								<div class="product-info-price">
+									<a href="details.html">&#163; 350</a>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="more-product-info">
+								<span> </span>
+							</div>
+						</div>
+						<div onclick="location.href='details.html';"  class="product-grid fade">
+							<div class="product-grid-head">
+								<ul class="grid-social">
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="googlep" href="#"><span> </span></a></li>
+									<div class="clear"> </div>
+								</ul>
+								<div class="block">
+									<div class="starbox small ghosting"> </div> <span> (46)</span>
+								</div>
+							</div>
+							<div class="product-pic">
+								<a href="#"><img src="<c:url value="/resources/images/product4.jpg"/>" title="product-name" /></a>
+								<p>
+								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
+								<span>Men's Firm-Ground Football Boot</span>
+								</p>
+							</div>
+							<div class="product-info">
+								<div class="product-info-cust">
+									<a href="details.html">Details</a>
+								</div>
+								<div class="product-info-price">
+									<a href="details.html">&#163; 370</a>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="more-product-info">
+								<span> </span>
+							</div>
+						</div>
+						<div onclick="location.href='details.html';"  class="product-grid fade">
+							<div class="product-grid-head">
+								<ul class="grid-social">
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="googlep" href="#"><span> </span></a></li>
+									<div class="clear"> </div>
+								</ul>
+								<div class="block">
+									<div class="starbox small ghosting"> </div> <span> (46)</span>
+								</div>
+							</div>
+							<div class="product-pic">
+								<a href="#"><img src="<c:url value="/resources/images/product5.jpg"/>" title="product-name" /></a>
+								<p>
+								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
+								<span>Men's Firm-Ground Football Boot</span>
+								</p>
+							</div>
+							<div class="product-info">
+								<div class="product-info-cust">
+									<a href="details.html">Details</a>
+								</div>
+								<div class="product-info-price">
+									<a href="details.html">&#163; 355</a>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="more-product-info">
+								<span> </span>
+							</div>
+						</div>
+						<div onclick="location.href='details.html';"  class="product-grid fade last-grid">
+							<div class="product-grid-head">
+								<ul class="grid-social">
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="googlep" href="#"><span> </span></a></li>
+									<div class="clear"> </div>
+								</ul>
+								<div class="block">
+									<div class="starbox small ghosting"> </div> <span> (46)</span>
+								</div>
+							</div>
+							<div class="product-pic">
+								<a href="#"><img src="<c:url value="/resources/images/product6.jpg"/>" title="product-name" /></a>
+								<p>
+								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
+								<span>Men's Firm-Ground Football Boot</span>
+								</p>
+							</div>
+							<div class="product-info">
+								<div class="product-info-cust">
+									<a href="details.html">Details</a>
+								</div>
+								<div class="product-info-price">
+									<a href="details.html">&#163; 390</a>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="more-product-info">
+								<span> </span>
+							</div>
+						</div>
+						<div class="clear"> </div>
+					</div>
+				</div>
+				<div class="clear"> </div>
+			</div>
+		</div>
+		<!---- start-bottom-grids---->
+		<div class="bottom-grids">
+			<div class="bottom-top-grids">
+				<div class="wrap">
+					<div class="bottom-top-grid">
+						<h4>GET HELP</h4>
+						<ul>
+							<li><a href="contact.html">Contact us</a></li>
+							<li><a href="#">Shopping</a></li>
+							<li><a href="#">NIKEiD</a></li>
+							<li><a href="#">Nike+</a></li>
+						</ul>
+					</div>
+					<div class="bottom-top-grid">
+						<h4>ORDERS</h4>
+						<ul>
+							<li><a href="#">Payment options</a></li>
+							<li><a href="#">Shipping and delivery</a></li>
+							<li><a href="#">Returns</a></li>
+						</ul>
+					</div>
+					<div class="bottom-top-grid last-bottom-top-grid">
+						<h4>REGISTER</h4>
+						<p>Create one account to manage everything you do with Nike, from your shopping preferences to your Nike+ activity.</p>
+						<a class="learn-more" href="#">Learn more</a>
+					</div>
+					<div class="clear"> </div>
+				</div>
+			</div>
+			<div class="bottom-bottom-grids">
+				<div class="wrap">
+					<div class="bottom-bottom-grid">
+						<h6>EMAIL SIGN UP</h6>
+						<p>Be the first to know about new products and special offers.</p>
+						<a class="learn-more" href="#">Sign up now</a>
+					</div>
+					<div class="bottom-bottom-grid">
+						<h6>GIFT CARDS</h6>
+						<p>Give the gift that always fits.</p>
+						<a class="learn-more" href="#">View cards</a>
+					</div>
+					<div class="bottom-bottom-grid last-bottom-bottom-grid">
+						<h6>STORES NEAR YOU</h6>
+						<p>Locate a Nike retail store or authorized retailer.</p>
+						<a class="learn-more" href="#">Search</a>
+					</div>
+					<div class="clear"> </div>
+				</div>
+			</div>
+		</div>
+		<!---- //End-bottom-grids---->
+		<!--- //End-content---->
+		<!---start-footer---->
+		<div class="footer">
+			<div class="wrap">
+				<div class="footer-left">
+					<ul>
+						<li><a href="#">United Kingdom</a> <span> </span></li>
+						<li><a href="#">Terms of Use</a> <span> </span></li>
+						<li><a href="#">Nike Inc.</a> <span> </span></li>
+						<li><a href="#">Launch Calendar</a> <span> </span></li>
+						<li><a href="#">Privacy & Cookie Policy</a> <span> </span></li>
+						<li><a href="#">Cookie Settings</a></li>
+						<div class="clear"> </div>
+					</ul>
+				</div>
+				<div class="footer-right">
+					<p>Template by <a href="http://w3layouts.com/">W3layouts</a></p>
+					<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+			    <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+				</div>
+				<div class="clear"> </div>
+			</div>
+		</div>
+		<!---//End-footer---->
+		<!---//End-wrap---->
+	</body>
 </html>
+
