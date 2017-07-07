@@ -1,10 +1,17 @@
 package com.bin.otkrivashkin.controller;
 
+import java.util.List;
+
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.bin.otkrivashkin.dao.ProductDao;
+import com.bin.otkrivashkin.model.Product;
 
 @Controller
 public class PageController {
+	private ProductDao productDao = new ProductDao(); 
 
 	@RequestMapping("/")
 	public String index() {
@@ -12,7 +19,9 @@ public class PageController {
 	}
 	
 	@RequestMapping("/products")
-	public String products() {
+	public String products(Model model) {
+		List<Product> products = productDao.getProductList();
+		model.addAttribute("products", products);
 		return "products";
 	}
 	
