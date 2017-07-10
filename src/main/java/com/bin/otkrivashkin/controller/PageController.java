@@ -1,9 +1,11 @@
 package com.bin.otkrivashkin.controller;
 
+import java.io.IOException;
 import java.util.List;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.bin.otkrivashkin.dao.ProductDao;
@@ -25,8 +27,11 @@ public class PageController {
 		return "products";
 	}
 	
-	@RequestMapping("/details")
-	public String details() {
+	@RequestMapping("/products/details/{id}")
+	public String details(@PathVariable String id, Model model) throws IOException {
+		
+		Product product = productDao.getProductById(id);
+		model.addAttribute("product", product);
 		return "details";
 	}
 	

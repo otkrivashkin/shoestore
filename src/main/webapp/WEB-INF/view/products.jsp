@@ -62,8 +62,7 @@
 					<c:choose>
 						<c:when test="${products.size() % 3 == 0 }">
 
-							<div class="product-grid fade last-grid"
-								onclick="location.href='details.html';">
+							<div class="product-grid fade last-grid">
 								<div class="product-grid-head">
 									<ul class="grid-social">
 										<li><a class="facebook" href="#"><span> </span></a></li>
@@ -77,7 +76,7 @@
 									</div>
 								</div>
 								<div class="product-pic">
-									<a href="#"><img
+									<a href="<spring:url value="/products/details/${product.id}"/>"><img
 										src="<c:url value="/resources/images/product3.jpg"/>"
 										title="${product.name }" /></a>
 									<p>
@@ -87,7 +86,7 @@
 								</div>
 								<div class="product-info">
 									<div class="product-info-cust">
-										<a href="details.html">Details</a>
+										<a href="<spring:url value="/products/details/${product.id} }"/>">Details</a>
 									</div>
 									<div class="product-info-price">
 										<a href="details.html">&#163; ${product.price }</a>
@@ -100,8 +99,7 @@
 							</div>
 						</c:when>
 						<c:otherwise>
-							<div class="product-grid fade"
-								onclick="location.href='details.html';">
+							<div class="product-grid fade">
 								<div class="product-grid-head">
 									<ul class="grid-social">
 										<li><a class="facebook" href="#"><span> </span></a></li>
@@ -115,7 +113,7 @@
 									</div>
 								</div>
 								<div class="product-pic">
-									<a href="#"><img
+									<a href="<spring:url value="/products/details/${product.id}"/>"><img
 										src="<c:url value="/resources/images/product2.jpg"/>"
 										title="${product.name }" /></a>
 									<p>
@@ -125,7 +123,7 @@
 								</div>
 								<div class="product-info">
 									<div class="product-info-cust">
-										<a href="details.html">Details</a>
+										<a href="<spring:url value="/products/details/${product.id} }"/>">Details</a>
 									</div>
 									<div class="product-info-price">
 										<a href="details.html">&#163; ${product.price }</a>
@@ -139,125 +137,8 @@
 						</c:otherwise>
 					</c:choose>
 				</c:forEach>
-				<!-- end looping -->
-					
-					
-					
-					
-					<div class="product-grid fade"
-						onclick="location.href='details.html';">
-						<div class="product-grid-head">
-							<ul class="grid-social">
-								<li><a class="facebook" href="#"><span> </span></a></li>
-								<li><a class="twitter" href="#"><span> </span></a></li>
-								<li><a class="googlep" href="#"><span> </span></a></li>
-								<div class="clear"></div>
-							</ul>
-							<div class="block">
-								<div class="starbox small ghosting"></div>
-								<span> (46)</span>
-							</div>
-						</div>
-						<div class="product-pic">
-							<a href="#"><img
-								src="<c:url value="/resources/images/product2.jpg"/>"
-								title="product-name" /></a>
-							<p>
-								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small>
-									FG</a> <span>Men's Firm-Ground Football Boot</span>
-							</p>
-						</div>
-						<div class="product-info">
-							<div class="product-info-cust">
-								<a href="details.html">Details</a>
-							</div>
-							<div class="product-info-price">
-								<a href="details.html">&#163; 380</a>
-							</div>
-							<div class="clear"></div>
-						</div>
-						<div class="more-product-info">
-							<span> </span>
-						</div>
-					</div>
-					<div class="product-grid fade"
-						onclick="location.href='details.html';">
-						<div class="product-grid-head">
-							<ul class="grid-social">
-								<li><a class="facebook" href="#"><span> </span></a></li>
-								<li><a class="twitter" href="#"><span> </span></a></li>
-								<li><a class="googlep" href="#"><span> </span></a></li>
-								<div class="clear"></div>
-							</ul>
-							<div class="block">
-								<div class="starbox small ghosting"></div>
-								<span> (46)</span>
-							</div>
-						</div>
-						<div class="product-pic">
-							<a href="#"><img
-								src="<c:url value="/resources/images/product1.jpg"/>"
-								title="product-name" /></a>
-							<p>
-								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small>
-									FG</a> <span>Men's Firm-Ground Football Boot</span>
-							</p>
-						</div>
-						<div class="product-info">
-							<div class="product-info-cust">
-								<a href="details.html">Details</a>
-							</div>
-							<div class="product-info-price">
-								<a href="details.html">&#163; 375</a>
-							</div>
-							<div class="clear"></div>
-						</div>
-						<div class="more-product-info">
-							<span> </span>
-						</div>
-					</div>
-					<div class="product-grid fade last-grid"
-						onclick="location.href='details.html';">
-						<div class="product-grid-head">
-							<ul class="grid-social">
-								<li><a class="facebook" href="#"><span> </span></a></li>
-								<li><a class="twitter" href="#"><span> </span></a></li>
-								<li><a class="googlep" href="#"><span> </span></a></li>
-								<div class="clear"></div>
-							</ul>
-							<div class="block">
-								<div class="starbox small ghosting"></div>
-								<span> (46)</span>
-							</div>
-						</div>
-						<div class="product-pic">
-							<a href="#"><img
-								src="<c:url value="/resources/images/product3.jpg"/>"
-								title="product-name" /></a>
-							<p>
-								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small>
-									FG</a> <span>Men's Firm-Ground Football Boot</span>
-							</p>
-						</div>
-						<div class="product-info">
-							<div class="product-info-cust">
-								<a href="details.html">Details</a>
-							</div>
-							<div class="product-info-price">
-								<a href="details.html">&#163; 350</a>
-							</div>
-							<div class="clear"></div>
-						</div>
-						<div class="more-product-info">
-							<span> </span>
-						</div>
-					</div>
-					
-					
-					
-				
-					
-					
+				<!-- end looping -->											
+										
 					<div class="clear"></div>
 				</div>
 				<!----start-load-more-products---->
